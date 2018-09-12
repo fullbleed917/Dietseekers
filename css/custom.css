@@ -1,0 +1,33 @@
+/* body {
+  background-color:white;
+}
+
+.container{
+  background-color: red;
+} */
+
+.nav-fill{
+  background-color:#ccf6f2;
+}
+
+.jumbotron{
+  background-image: url("file://users/lesleybroyles/Documents/projects/Dietseekers/images/bg.jpg");
+  background-size:cover;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+.jumbotron2{
+  background-image: url("file:///Users/lesleybroyles/Documents/project_documents/code_test/images/discoverbg.jpg");
+  background-size:cover;
+
+  padding-top: 7%;
+  padding-bottom: 7%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+}
+
+/* .jumbotron h1{
+  display:none; */
+}
