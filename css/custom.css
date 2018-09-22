@@ -11,13 +11,19 @@
 }
 
 .jumbotron{
-  background-image: url("file://users/lesleybroyles/Documents/projects/Dietseekers/images/bg.jpg");
+  background-image: url("/users/leonredman/Documents/transfer2/Archive2/projects/Dietseekers/images/bg2.jpg");
   background-size:cover;
   padding-top: 12%;
   padding-bottom: 12%;
 }
+
+#run2{
+  position:relative;
+  left:100px;
+  top:-300px;
+}
 .jumbotron2{
-  background-image: url("file:///Users/lesleybroyles/Documents/project_documents/code_test/images/discoverbg.jpg");
+  background-image: url("/users/leonredman/Documents/transfer2/Archive2/projects/Dietseekers/images/discoverbg.jpg");
   background-size:cover;
 
   padding-top: 7%;
@@ -28,6 +34,19 @@
   -o-background-size: cover;
 }
 
-/* .jumbotron h1{
-  display:none; */
+.btn-md {
+    padding: 10px 100px;
+    font-size: 20px;
+    border-radius: 10px;
 }
+
+  /* #run2{
+  display:none;
+} */
+
+/* .jumbotron a{
+  display:none;
+}
+.active {
+  display:none;
+} */
