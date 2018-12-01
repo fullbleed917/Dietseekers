@@ -11,13 +11,20 @@
 }
 
 .jumbotron{
-  background-image: url("file://users/lesleybroyles/Documents/projects/Dietseekers/images/bg.jpg");
+  background-image: url("/Users/leonredman/imac-2/Archive2/projects/Dietseekers/images/woman-leaning-on-table-with-various-ingredients-and-a-diet-planning-book.jpg");
+
   background-size:cover;
   padding-top: 12%;
   padding-bottom: 12%;
 }
+
+#run2{
+  position:relative;
+  left:100px;
+  top:-300px;
+}
 .jumbotron2{
-  background-image: url("file:///Users/lesleybroyles/Documents/project_documents/code_test/images/discoverbg.jpg");
+  background-image: url("/Users/leonredman/imac-2/Archive2/projects/Dietseekers/images/bg2.jpg");
   background-size:cover;
 
   padding-top: 7%;
@@ -28,6 +35,30 @@
   -o-background-size: cover;
 }
 
-/* .jumbotron h1{
-  display:none; */
+.btn-md {
+    padding: 10px 50px 10px;
+    margin:20px;
+    font-size: 20px;
+    border-radius: 10px;
 }
+.section5{
+  background-color:grey;
+  height:400px;
+}
+#f1 {
+  text-align: center;
+}
+
+#f2 {
+  text-align: center;
+}
+
+  /* #run2{
+  display:none;
+} */
+/* .jumbotron a{
+  display:none;
+}
+.active {
+  display:none;
+} */

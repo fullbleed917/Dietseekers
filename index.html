@@ -46,18 +46,50 @@
 
 
 
-   <div class="jumbotron">
-     <h1 class="display-6 text-light">ENERGIZE YOUR DIET TO GET RESULTS FAST!</h1>
-       <p class="lead text-light">Simply enter your email below and you will receive free ebooks featuring diet guides, workout tips, and delicious, easy to cook recipes!</p>
+  <div class="jumbotron">
+     <div id="run1">
+       <h1 class="display-6 text-light">ENERGIZE YOUR DIET!</h1>
+          <p class="lead text-light">Simply enter your email below and you will receive free ebooks featuring diet guides, workout tips, and delicious, easy to cook recipes!</p>
           <p class="text-light">As an added BONUS, you'll receive an opportunity for a Free bottle of Grass-Fed, Low Carb Protein!</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-   </div>
+        <a class="btn btn-success btn-lg" href="#" role="button">GET MY EBOOK NOW</a>
+      </div>
+  </div>
 
+<div id="run2">
+   <div class="container-fluid">
+     <h3 class="display-10 text-light">Tell Us About Yourself</h3>
+      <div class="dropdown">
+        <button class="btn btn-success btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Gender</button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">male</a>
+            <a class="dropdown-item" href="#">female</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-success btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Age</button>
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                 <a class="dropdown-item" href="#">18-24</a>
+                     <a class="dropdown-item" href="#">25-34</a>
+                     <a class="dropdown-item" href="#">35-44</a>
+                     <a class="dropdown-item" href="#">45-54</a>
+                     <a class="dropdown-item" href="#">55-64</a>
+                     <a class="dropdown-item" href="#">65 or older</a>
+              </div>
+    </div>
+
+          <div class="btn"
+            <button class="btn btn-success btn-lg" type="button"  aria-haspopup="true" aria-expanded="false">
+              Next</button>
+          </div>
+</div>
 
 
 <div class="row welcome text-center">
   <div class = "container-fluid padding">
-
     <div class="row welcome text-center">
       <div class="col-12">
             <h2 class="display-6">HOW ITS DONE</h2>
@@ -102,7 +134,6 @@
 </div>
 
 
-
 <div class = "container-fluid padding">
   <div class="row welcome text-center">
     <div class="col-12">
@@ -116,7 +147,7 @@
         <div class="col-lg-6">
             <p> Each month we'll send you a recipes and diet guides based on your specific needs. Simply join up for free and tell us a little about yourself and you'll be on your way to a healthier life! </p>
               <br>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="#" class="btn btn-success btn-lg">Learn More</a>
         </div>
 
         <div class="col-lg-6">
@@ -128,13 +159,17 @@
  <div class="jumbotron2">
      <h1 class="display-6">DELICIOUS RECIPES YOU WILL LOVE</h1>
          <p class="lead">By signing up, we can keep you informed of the latest recipes and diet tips. You'll always have something new to try!</p>
-           <a class="btn btn-primary btn-lg" href="#" role="button">SIGN UP NOW!</a>
+           <a class="btn btn-success btn-lg" href="#" role="button">SIGN UP NOW!</a>
  </div>
 
-<div class="container-fluid">
-  <div class="row welcome text-center">
-    <div class="col-12">
-      <h1>Your Profile and Goals</h1>
+ <div class="section5">
+   <div class="container-fluid">
+     <div class="row welcome text-center">
+       <div class="col-12">
+         <h1>Your Profile and Goals</h1>
+       </div>
+      <p id='f1'>LIST 1</p>
+      <p id='f2'>LIST 2</p>
     </div>
   </div>
 </div>
@@ -146,16 +181,7 @@ function check(){
 }
 </script>
 
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Dropdown button
-</button>
-<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-  <a class="dropdown-item" href="#">Action</a>
-<a class="dropdown-item" href="#">Another action</a>
-<a class="dropdown-item" href="#">Something else here</a>
-</div>
-</div> -->
+ -->
 
 
 <script>
@@ -165,7 +191,7 @@ function check(){
 }
 </script>
 
-<form name='myform'>
+<!-- <form name='myform'>
 
     <input type = 'text' Gender = 'gender' value = 'Gender'>
     <select name="Gender">
@@ -186,9 +212,7 @@ function check(){
     <p><input type = 'submit' onclick='check(); return false'></p>
   </p>
 </form>
-<p>Submit the form and I will show your name and favorite color below:</p>
-<p id='f1'></p>
-<p id='f2'></p>
+<p>Submit the form and I will show your name and favorite color below:</p> -->
 
 
 
@@ -203,5 +227,6 @@ function check(){
        $('h1').fadeToggle();
      });
      </script> -->
+     <script src="js/main.js"></script>
   </body>
 </html>
