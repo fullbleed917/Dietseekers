@@ -23,15 +23,10 @@
   top:-300px;
 }
 .jumbotron2{
-  background-image: url("/Users/leonredman/imac-2/Archive2/projects/Dietseekers/images/bg2.jpg");
+  background: url('../images/bg2.jpg') no-repeat;
   background-size:cover;
-
   padding-top: 7%;
   padding-bottom: 7%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-
-  -o-background-size: cover;
 }
 
 .btn-md {
