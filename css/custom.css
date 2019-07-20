@@ -11,8 +11,7 @@
 }
 
 .jumbotron{
-  background-image: url("/Users/leonredman/imac-2/Archive2/projects/Dietseekers/images/woman-leaning-on-table-with-various-ingredients-and-a-diet-planning-book.jpg");
-
+  background: url('../images/woman-leaning-on-table-with-various-ingredients-and-a-diet-planning-book.jpg') no-repeat;
   background-size:cover;
   padding-top: 12%;
   padding-bottom: 12%;
