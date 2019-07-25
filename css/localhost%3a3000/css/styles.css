@@ -1,0 +1,210 @@
+/*-------------------------------
+                TYPOGRAPHY
+    --------------------------------*/
+body {
+  background: white; }
+
+/*--------------------------------
+                HEADER
+    ---------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
+.navbar {
+  height: 80px; }
+
+/*-------------------------------
+                NAVIGATION
+    --------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
+.navbar-dark .navbar-nav .nav-link {
+  color: #226e88; }
+
+.navbar-dark .navbar-brand {
+  color: #226e88; }
+
+/*--------------------------------
+                BUTTONS
+    ----------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
+.care-button {
+  margin-top: 15%; }
+
+.btn-lg {
+  margin-left: 5%;
+  position: relative;
+  margin-left: 5%;
+  bottom: 80px;
+  width: 250px;
+  background-color: #4DC1E5;
+  color: white; }
+
+/*----------------------------------
+                FOOTER
+    ---------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
+#footer {
+  height: 20em; }
+
+.contact img {
+  width: 100%;
+  height: 30rem; }
+
+.contact {
+  color: #4dc1e4; }
+
+/*------------------------------
+                PAGE SPECIFIC
+    ---------------------------------*/
+/*---
+      PAGE NAME
+      Description of section
+      Media queries? Y/N
+    ---*/
+#hero {
+  background: url("/assets/images/hero2.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+  height: 45rem; }
+
+.hero-cta {
+  padding-top: 100px;
+  padding-left: 100px; }
+
+.lead {
+  padding: 6rem;
+  width: 70%;
+  font-size: 1.7rem;
+  font-weight: 400;
+  width: 55%;
+  color: white; }
+
+.display-3 h1 {
+  top: 300px; }
+
+.row-value-cards {
+  display: flex; }
+
+.quality-card {
+  margin-left: 18%; }
+
+.commitment-card {
+  margin-left: -10%; }
+
+.experience-card {
+  margin-left: -10%; }
+
+.col-md4 {
+  margin-right: -6%; }
+
+.text-center {
+  padding-top: 20%; }
+
+.card h5 {
+  color: #4bc0eb; }
+
+#about {
+  background: url("/assets/images/image2.jpg") no-repeat;
+  background-size: cover;
+  height: 40rem; }
+
+#care img {
+  width: 650px;
+  position: relative;
+  left: 40px;
+  top: 30px; }
+
+.col-6 {
+  position: relative;
+  top: 80px;
+  left: 250px;
+  background-color: white;
+  max-width: 35%; }
+
+.lead1 {
+  padding-left: 8%; }
+
+#health {
+  background: url("/assets/images/bee.jpg") no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: 0 30%; }
+
+#caregiver img {
+  width: 65%;
+  margin-left: 100px; }
+
+.nurse1 p {
+  position: relative;
+  right: 10%;
+  width: 90%;
+  top: 25%; }
+
+.display-4 {
+  width: 100%; }
+
+.display-4 {
+  color: #4dc1e5;
+  padding-top: 15%;
+  padding-left: 8%; }
+
+.display-3 {
+  color: #4dc1e5;
+  left: 100px;
+  position: relative;
+  top: 100px; }
+
+#appointment {
+  background: url("/assets/images/contact.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 46em;
+  }
+
+.caregiver {
+  color: #4dc1e5;
+  margin-top: 10%;
+  margin-bottom: 10%; }
+
+.staff-images img {
+  height: 275px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px inset #CBF7F0; }
+
+.background {
+  display: flex;
+  width: 800px;
+  height: 900px;
+  background-color: red; }
+
+.bg-info2 {
+  background-color: #a8cddd;
+  color: white;
+  height: 250px;
+  width: 400px;
+  border-radius: 5%;
+  position: relative;
+  top: -100px; }
+
+.appointment-border {
+  width: 100%;
+  height: 100px;
+  margin-top: 10%;
+  }
+
+/*-------------------------------
+            LARGE SCREENS ONLY
+    ---------------------------------*/
+/*--------------------------------
+        TABLET SCREENS AND SMALLER
+    --------------------------------*/
+/*-------------------------------
+            MOBILE SCREENS ONLY
+    ---------------------------------*/
