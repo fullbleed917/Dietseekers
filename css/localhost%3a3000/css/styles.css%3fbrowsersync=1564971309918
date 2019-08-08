@@ -4,6 +4,18 @@
 body {
   background: white; }
 
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
 /*--------------------------------
                 HEADER
     ---------------------------------*/
@@ -20,11 +32,23 @@ body {
       Media queries? Y/N
     ---*/
 .navbar-dark .navbar-nav .nav-link {
-  color: #cbf7f0;
+  color: #1d738e;
+  font-weight: bold;
+  /* padding-right: 5.5rem; */
+  margin-right: 5.5rem;
   }
 
 .navbar-dark .navbar-brand {
-  color: #226e88; }
+  color: #1d738e;
+  font-weight: 500;
+  padding-left: 5rem;
+  font-size: 1.6rem; }
+
+.nav-button {
+  background-color: #4AC2E7; }
+
+#navbarDropdown {
+  color: #ffffff; }
 
 /*--------------------------------
                 BUTTONS
@@ -41,6 +65,10 @@ body {
   margin-left: 5%;
   bottom: 80px;
   width: 250px;
+  background-color: #4DC1E5;
+  color: white; }
+
+.btn-md {
   background-color: #4DC1E5;
   color: white; }
 
@@ -69,7 +97,7 @@ body {
       Media queries? Y/N
     ---*/
 #hero {
-  background: url("/assets/images/hero2.jpg") no-repeat;
+  background: url("/assets/images/hero2a.jpg") no-repeat;
   background-size: cover;
   background-position: 0 50%;
   height: 45rem; }
@@ -90,19 +118,8 @@ body {
   top: 300px; }
 
 .row-value-cards {
-  display: flex;
-  justify-content: space-between;
-  }
-
-.quality-card {
-  /* margin-left: 18%; */
-  }
-
-.commitment-card {
-  margin-left: -10%; }
-
-.experience-card {
-  margin-left: -10%; }
+  margin-top: -70px;
+  padding-bottom: 60px; }
 
 .col-md4 {
   margin-right: -6%; }
@@ -110,11 +127,19 @@ body {
 .text-center {
   padding-top: 20%; }
 
+.card {
+  position: relative;
+  left: 350px;
+  border-color: #4bc0eb;
+  border-width: 3px;
+  border-radius: 10%;
+  width: 70%; }
+
 .card h5 {
   color: #4bc0eb; }
 
 #about {
-  background: url("/assets/images/image2.jpg") no-repeat;
+  background: url("/assets/images/image2a.jpg") no-repeat;
   background-size: cover;
   height: 40rem; }
 
@@ -167,9 +192,9 @@ body {
 #appointment {
   background: url("/assets/images/contact.jpg") no-repeat;
   background-size: cover;
+  opacity: .5;
   width: 100%;
-  height: 46em;
-  }
+  height: 46em; }
 
 .caregiver {
   color: #4dc1e5;
@@ -180,9 +205,11 @@ body {
   height: 275px;
   border-radius: 50%;
   overflow: hidden;
-  border: 10px inset #CBF7F0;
-  /* margin-left: 150px; */
-  }
+  border: 10px inset #CBF7F0; }
+
+.justify-content-around {
+  margin-left: 9rem;
+  margin-right: 9rem; }
 
 .background {
   display: flex;
@@ -194,16 +221,17 @@ body {
   background-color: #a8cddd;
   color: white;
   height: 250px;
-  width: 400px;
-  border-radius: 5%;
+  width: 50%;
+  border-radius: 3%;
   position: relative;
-  top: -100px; }
+  top: -100px;
+  padding: 40px 80px 0px;
+  text-align: left; }
 
 .appointment-border {
   width: 100%;
   height: 100px;
-  margin-top: 10%;
-  }
+  margin-top: 10%; }
 
 /*-------------------------------
             LARGE SCREENS ONLY
