@@ -55,10 +55,32 @@
       </div>
   </div>
 
-<div id="run2">
+<div id="run2" class="run2-hidden">
    <div class="container-fluid">
      <h3 class="display-10 text-light">Tell Us About Yourself</h3>
       <div class="dropdown">
+        <form>
+          <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter Your Name">
+      
+    </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
         <button class="btn btn-success btn-md dropdown-toggle" id="intro" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Gender</button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -81,8 +103,8 @@
               </div>
     </div>
 
-          <div class="btn"
-            <button class="btn btn-success btn-lg" id="resultsBtn" type="button"  aria-haspopup="true" aria-expanded="false">
+          <div class="btn">
+            <button class="btn btn-success btn-md" id="resultsBtn" type="button"  aria-haspopup="true" aria-expanded="false">
               Next</button>
           </div>
 </div>
@@ -168,8 +190,9 @@
        <div class="col-12">
          <h1>Your Profile and Goals</h1>
        </div>
-      <p id='f1'>LIST 1</p>
-      <p id='f2'>LIST 2</p>
+      <div class="col-12"><p id='f1'>Your Gender is: LIST 1</p></div>
+      <br>
+    <div class="col-12"><p id='f2'>Your Age is: LIST 2</p></div>
     </div>
   </div>
 </div>
@@ -184,12 +207,12 @@ function check(){
  -->
 
 
-<script>
+<!-- <script>
 function check(){
   document.getElementById('f1').innerHTML = document.myform.gender.value;
   document.getElementById('f2').innerHTML = document.myform.age.value;
 }
-</script>
+</script> -->
 
 <!-- <form name='myform'>
 
