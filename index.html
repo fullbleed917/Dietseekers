@@ -56,57 +56,60 @@
   </div>
 
 <div id="run2" class="run2-hidden">
-   <div class="container-fluid">
+   <div class="container-fluid bg-success">
      <h3 class="display-10 text-light">Tell Us About Yourself</h3>
       <div class="dropdown">
-        <form>
-          <form>
+
+      <form>
+        <div class="form-container">
     <div class="form-group">
       <label for="name">Name</label>
       <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter Your Name">
-      
+
     </div>
+
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
+
+
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Your Gender</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Male</option>
+          <option>Female</option>
+
+        </select>
+      </div>
+
+      <div class="form-group">
+          <label for="exampleFormControlSelect1">Your Age</label>
+          <select class="custom-select" id="exampleFormControlSelect1">
+            <option>18-24</option>
+            <option>25-34</option>
+            <option>35-44</option>
+            <option>45-54</option>
+            <option>45-54</option>
+            <option>65 or older</option>
+          </select>
+        </div>
+
+
   <button type="submit" class="btn btn-primary">Submit</button>
+</div>
 </form>
-        <button class="btn btn-success btn-md dropdown-toggle" id="intro" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Gender</button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">male</a>
-            <a class="dropdown-item" href="#">female</a>
-          </div>
+
       </div>
     </div>
 
-    <div class="dropdown">
-        <button class="btn btn-success btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Age</button>
-             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                 <a class="dropdown-item" href="#">18-24</a>
-                     <a class="dropdown-item" href="#">25-34</a>
-                     <a class="dropdown-item" href="#">35-44</a>
-                     <a class="dropdown-item" href="#">45-54</a>
-                     <a class="dropdown-item" href="#">55-64</a>
-                     <a class="dropdown-item" href="#">65 or older</a>
-              </div>
-    </div>
 
-          <div class="btn">
+
+          <!-- <div class="btn">
             <button class="btn btn-success btn-md" id="resultsBtn" type="button"  aria-haspopup="true" aria-expanded="false">
               Next</button>
-          </div>
+          </div> -->
 </div>
 
 
