@@ -70,14 +70,14 @@
 
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
 
 
     <div class="form-group">
         <label for="exampleFormControlSelect1">Your Gender</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control" id="gender">
           <option>Male</option>
           <option>Female</option>
 
@@ -86,7 +86,7 @@
 
       <div class="form-group">
           <label for="exampleFormControlSelect1">Your Age</label>
-          <select class="custom-select" id="exampleFormControlSelect1">
+          <select class="custom-select" id="age">
             <option>18-24</option>
             <option>25-34</option>
             <option>35-44</option>
@@ -97,19 +97,12 @@
         </div>
 
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="submit"> Submit</button>
 </div>
 </form>
 
       </div>
     </div>
-
-
-
-          <!-- <div class="btn">
-            <button class="btn btn-success btn-md" id="resultsBtn" type="button"  aria-haspopup="true" aria-expanded="false">
-              Next</button>
-          </div> -->
 </div>
 
 
@@ -187,72 +180,29 @@
            <a class="btn btn-success btn-lg" href="#" role="button">SIGN UP NOW!</a>
  </div>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
  <div class="section5">
    <div class="container-fluid">
      <div class="row welcome text-center">
        <div class="col-12">
-         <h1>Your Profile and Goals</h1>
+         <h1>Thanks For Submitting Your Profile!</h1>
        </div>
-      <div class="col-12"><p id='f1'>Your Gender is: LIST 1</p></div>
+         <div class="col-12"><p id='showName'>Your Name:</p></div>
+           <div class="col-12"><p id='showEmail'>Your email:</p></div>
+      <div class="col-12"><p id='showGender'>Your Gender is:</p></div>
       <br>
-    <div class="col-12"><p id='f2'>Your Age is: LIST 2</p></div>
+    <div class="col-12"><p id='showAge'>Your Age is:</p></div>
     </div>
   </div>
 </div>
-
-<!-- <script>
-function check(){
-  document.getElementById('f1').innerHTML = document.dropdown.dropdown-item.value;
-  document.getElementById('f2').innerHTML = document.myform.age.value;
-}
-</script>
-
- -->
-
-
-<!-- <script>
-function check(){
-  document.getElementById('f1').innerHTML = document.myform.gender.value;
-  document.getElementById('f2').innerHTML = document.myform.age.value;
-}
-</script> -->
-
-<!-- <form name='myform'>
-
-    <input type = 'text' Gender = 'gender' value = 'Gender'>
-    <select name="Gender">
-      <option value=female>Female</option>
-      <option value=male>Male</option>
-
-
-<input type = 'text' Age = 'age' value = 'age'>
-      <select name="age">
-        <option value=18>18 - 24</option>
-        <option value=25>25 - 34</option>
-        <option value=35>35 - 44</option>
-        <option value=45>45 - 54</option>
-        <option value=55>55 - 64</option>
-        <option value=65>65 or older</option>
-      </select>
-    </p>
-    <p><input type = 'submit' onclick='check(); return false'></p>
-  </p>
-</form>
-<p>Submit the form and I will show your name and favorite color below:</p> -->
-
-
+</div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <script src="https://use.fontawesome.com/releases/v5.4.1/css/all.css"</script>
-      <script>
-     $('p').on('click', function(){
-       $('h1').fadeToggle();
-     });
-     </script>
-     <script src="js/main.js"></script>
+      <script src="https://use.fontawesome.com/releases/v5.4.1/css/all.css"></script>
+        <script src="js/main.js"></script>
   </body>
 </html>
