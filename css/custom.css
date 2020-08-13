@@ -28,9 +28,10 @@
 #run2{
   position:relative;
   left:100px;
-  top:-300px;
-  background-color:lightgrey;
+  top:-400px;
   width:400px;
+  background-color:#28a745;
+  padding: 30px;
 }
 .jumbotron2{
   background: url('../images/bg2.jpg') no-repeat;
