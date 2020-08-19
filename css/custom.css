@@ -11,7 +11,7 @@
 }
 
 .jumbotron{
-  background: url('../images/woman-leaning-on-table-with-various-ingredients-and-a-diet-planning-book.jpg') no-repeat;
+  background: url('../images/nutrition-hero.jpg') no-repeat;
   background-size:cover;
   padding-top: 12%;
   padding-bottom: 12%;
@@ -28,7 +28,6 @@
 #run2{
   position:relative;
   left:100px;
-  top:-400px;
   width:400px;
   background-color:#28a745;
   padding: 30px;
